@@ -43,8 +43,8 @@ _Schedule is tentative as of 2024.04.02_
   	</tr>
   	<tr>
     	<td>11:00</td>
-    	<td rowspan=3>Color Matching Demo</td>
-    	<td rowspan=3>Challenge Tracks: Gel Printing & Liquid Handling</td>
+    	<td rowspan=3>Color Matching</td>
+    	<td rowspan=3>2 Tracks: Gel Printing & Liquid Handling</td>
   	</tr>
     <tr>
       <td>11:30</td>
@@ -70,8 +70,8 @@ _Schedule is tentative as of 2024.04.02_
   	</tr>
     <tr>
       <td>2:30</td>
-    	<td rowspan=5>Color Matching Demo</td>
-    	<td rowspan=5>Challenge Tracks: Gel Printing & Liquid Handling</td>
+    	<td rowspan=5>Tool Assembly & Setup</td>
+    	<td rowspan=5>2 Tracks: Gel Printing & Liquid Handling</td>
   	</tr>
   	<tr>
     	<td>3:00</td>
