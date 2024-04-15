@@ -13,17 +13,25 @@ _Schedule is tentative as of 2024.04.02_
 	<thead>
     	<tr>
         	<th> </th>
+        	<th>Thursday</th>
         	<th>Friday</th>
         	<th>Saturday</th>
-        	<th>Sunday</th>
     	</tr>
 	</thead>
 	<tbody>
     <tr>
       <td>8:30</td>
     	<td rowspan=19>Arrival to Seattle!</td>
-    	<td rowspan=2> Breakfast/Startup</td>
-    	<td rowspan=2> Breakfast/Startup</td>
+    	<td rowspan=2>
+		Breakfast/Startup <br>
+		in Sieg Building, Room 112 <br>
+		<a href="https://maps.app.goo.gl/Hrf4K1v2UZRtQK1q7">3960 Benton Ln NE, Seattle, WA 98195</a>
+	</td>
+    	<td rowspan=2>
+		Breakfast/Startup <br>
+		in Sieg Building, Room 112 <br>
+		<a href="https://maps.app.goo.gl/Hrf4K1v2UZRtQK1q7">3960 Benton Ln NE, Seattle, WA 98195</a>
+	</td>
   	</tr>
   	<tr>
       <td>9:00</td>
@@ -54,8 +62,8 @@ _Schedule is tentative as of 2024.04.02_
   	</tr>
     <tr>
       <td>12:30</td>
-    	<td rowspan=2>Lunch</td>
-    	<td rowspan=2>Lunch</td>
+    	<td rowspan=2>Lunch (provided on-site)</td>
+    	<td rowspan=2>Lunch (provided on-site)</td>
   	</tr>
   	<tr>
     	<td>1:00</td>
@@ -95,9 +103,19 @@ _Schedule is tentative as of 2024.04.02_
   	</tr>
   	<tr>
     	<td>6:00</td>
-    	<td rowspan=6>Welcome and happy hour at the <a href=https://escience.washington.edu/>eScience Institute</a></td>
-    	<td rowspan=6>-</td>
-    	<td rowspan=6>-</td>
+    	<td rowspan=6>
+		Welcome and happy hour at the <a href=https://escience.washington.edu/>eScience Institute</a><br>
+		<a href="https://maps.app.goo.gl/rrRQQeehaGBF83D38">UW Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Seattle, WA 98195 </a>
+		</td>
+	</td>
+    	<td rowspan=6>
+		Dinner at Big Time Brewery<br>
+		<a href="https://maps.app.goo.gl/V87qcnZR9mzQ3cav6">4133 University Wy NE, Seattle, WA 98105</a>
+	</td>
+    	<td rowspan=6>
+		Dinner at Big Time Brewery<br>
+		<a href="https://maps.app.goo.gl/V87qcnZR9mzQ3cav6">4133 University Wy NE, Seattle, WA 98105</a>
+	</td>
   	</tr>
     <tr>
       <td>6:30</td>
