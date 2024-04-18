@@ -7,7 +7,7 @@ University of Washington
 This repository contains resources for the NSF sponsored Pathways to Open-Source Ecosystems for Laboratory Automation workshop.
 
 ## Schedule
-_Schedule is tentative as of 2024.04.02_
+_Schedule of 2024.04.18_
 
 <table>
 	<thead>
@@ -38,7 +38,9 @@ _Schedule is tentative as of 2024.04.02_
   	</tr>
     <tr>
       <td>9:30</td>
-    	<td rowspan=2>Workshop Intro</td>
+    	<td rowspan=2>
+		Workshop Intro (<a href="https://github.com/machineagency/POSE-workshop/tree/main/examples">Resources</a>)
+	</td>
     	<td rowspan=2>Discussion</td>
   	</tr>
   	<tr>
@@ -52,8 +54,12 @@ _Schedule is tentative as of 2024.04.02_
   	<tr>
     	<td>11:00</td>
     	<td rowspan=3>Color Matching</td>
-    	<td rowspan=3>2 Tracks: Gel Printing & Liquid Handling</td>
-  	</tr>
+    	<td rowspan=3>
+		Gel Printing (<a href="https://github.com/machineagency/POSE-workshop/tree/main/gel_printing">Resources</a>) <br>
+		&<br>
+		Liquid Handling
+	</td>
+  </tr>
     <tr>
       <td>11:30</td>
   	</tr>
@@ -78,8 +84,12 @@ _Schedule is tentative as of 2024.04.02_
   	</tr>
     <tr>
       <td>2:30</td>
-    	<td rowspan=5>Tool Assembly & Setup</td>
-    	<td rowspan=5>2 Tracks: Gel Printing & Liquid Handling</td>
+    	<td rowspan=5>Tool Assembly & Setup (<a href="https://github.com/machineagency/POSE-workshop/tree/main/tool_setup">Resources</a>)</td>
+    	<td rowspan=4>
+		Gel Printing (<a href="https://github.com/machineagency/POSE-workshop/tree/main/gel_printing">Resources</a>) <br>
+		&<br>
+		Liquid Handling
+	</td>
   	</tr>
   	<tr>
     	<td>3:00</td>
@@ -92,11 +102,11 @@ _Schedule is tentative as of 2024.04.02_
   	</tr>
     <tr>
       <td>4:30</td>
-  	</tr>
+      <td rowspan=3>Discussion and Wrap-up</td>
+  </tr>
   	<tr>
     	<td>5:00</td>
     	<td rowspan=2>Discussion</td>
-    	<td rowspan=2>Discussion and Wrap-up</td>
   	</tr>
     <tr>
       <td>5:30</td>
