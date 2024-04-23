@@ -8,7 +8,7 @@ This repository contains resources for the NSF sponsored Pathways to Open-Source
 
 To install:
 
-- Clone this repositository recursively: `git clone --recursive https://github.com/machineagency/duckbot.git`
+- Clone this repositository recursively: `git clone --recursive [https://github.com/machineagency/duckbot.git](https://github.com/machineagency/POSE-workshop.git)`
     - Note that the `--recursive` flag is necessary as this repository relies on [science_jubilee](https://github.com/machineagency/science_jubilee/) 
 - We recommend using python virtual environments to handle dependencies. To do this:
   - Move into the new directory: `cd POSE-workshop`
