@@ -13,7 +13,7 @@ M201 X1000 Y1000 Z20 E1500 ; sets maximum accelerations, mm/sec^2
 M203 X13000 Y13000 Z800 E8000 ; sets maximum feedrates, mm / sec
 M204 S1500 T1500 ; sets acceleration (S) and retract acceleration (R), mm/sec^2
 M205 X17.00 Y17.00 Z0.10 E50.00 ; sets the jerk limits, mm/sec
-M205 S0 T0 ; sets the minimum extruding and travel feed rate, mm/sec
+M205 S0 T2 ; sets the minimum extruding and travel feed rate, mm/sec
 M190 S20 ; set bed temperature and wait for it to be reached
 M104 S20 ; set temperature
 ;TYPE:Custom
@@ -26,7 +26,7 @@ M558 F500  ; Set the probing speed
 G30 ; Do a single probe
 M558 F50 ; Set a slower probing speed
 G30 ; Do a second probe
-T0
+T2
 M109 S20 ; set temperature and wait for it to be reached
 G21 ; set units to millimeters
 G90 ; use absolute coordinates
@@ -3691,7 +3691,7 @@ M107
 ;END gcode for filament
 T-1         ; desect current tool
 G0 Z305  ; move bed all the way to the bottom
-M104 S0 T0; turn off extruder 0
+M104 S0 T2; turn off extruder 0
 M104 S0 T1; turn off extruder 1
 M140 S0 ; turn off bed
 G0 X0 Y0 F30000; return home
@@ -3745,7 +3745,7 @@ M84 S600; disable motors after ten mins of inactivity
 ; enable_dynamic_fan_speeds = 0
 ; enable_dynamic_overhang_speeds = 0
 ; end_filament_gcode = "; Filament-specific end gcode \n;END gcode for filament\n"
-; end_gcode = T-1         ; desect current tool\nG0 Z305  ; move bed all the way to the bottom\nM104 S0 T0; turn off extruder 0\nM104 S0 T1; turn off extruder 1\nM140 S0 ; turn off bed\nG0 X0 Y0 F30000; return home\nM84 S600; disable motors after ten mins of inactivity\n
+; end_gcode = T-1         ; desect current tool\nG0 Z305  ; move bed all the way to the bottom\nM104 S0 T2; turn off extruder 0\nM104 S0 T1; turn off extruder 1\nM140 S0 ; turn off bed\nG0 X0 Y0 F30000; return home\nM84 S600; disable motors after ten mins of inactivity\n
 ; external_perimeter_acceleration = 0
 ; external_perimeter_extrusion_width = 1
 ; external_perimeter_speed = 3

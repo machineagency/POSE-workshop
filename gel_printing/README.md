@@ -11,11 +11,23 @@ To import the config bundle into PrusaSlicer, follow these steps:
 
 1. Open PrusaSlicer.
 2. Go to `File > Import > Import Config Bundle ...`.
+<<<<<<< HEAD
 3. Navigate to the location of the `Jubilee_PrusaSlicer_config_bundle.ini` file and select it.
+=======
+3. Navigate to the location of the `Jubilee_Prusa_config.ini` file and select it.
+>>>>>>> 6e79e6a (edit readme)
 
 This will load the configuration settings for the Jubilee printer into PrusaSlicer.
 
 ![Import Config](import_config_bundle.png)
+
+You may note that this config has *FOUR* syringe extruders but there are only two. This is to allow the slicer to generate GCode with the correct tool number for Jubilee. Use Extruder 3 and Extruder 4 to generate multimaterial 3D printing file. Extruder assignment can be changed under `Print Settings > Multiple Extruders`. 
+
+![Assign extruders](assign_extruder.png)
+
+Note that Extruder 3 is Tool 2 on Jubilee since Jubilee tool index starts at 0 and PrusaSlicer counts from 1.
+
+If you wish to engage with a task that aims at multimaterial extrusion, note that it is not a trivial task and we have had no luck in getting a perfect print. This is because the material we use is compressible, and everytime we perform a tool change, the idling tool will still have residual pressure inside of the syringe. When a tool is picked up for extrusion, that same pressure needs to be built up for continuous flow.  
 
 ### Load and Slice the Model
 After installing and configuring PrusaSlicer, you can load your 3D model into the software. To do this, click on the 'Add' button on the top and select your model file in `.stl`. Once the model is loaded, you can adjust its orientation and scale if necessary.
