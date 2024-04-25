@@ -57,7 +57,7 @@ Once you are happy with all the settings, click `Slice now` on the bottom right 
 ![Slice now](slice_now.png)
 
 ## Send the GCode to the Printer
-Once you have your GCode, you can send it to the Jubilee printer. To do this, connect your computer to the printer and use the Duet Web Control (DWC) interface to upload the GCode. A full manual about Duet Web Control can be found [here](https://docs.duet3d.com/User_manual/Reference/Duet_Web_Control_Manual).
+Once you have your GCode, you can send it to the Jubilee printer. To do this, use the Duet Web Control (DWC) interface to upload the GCode. The workshop printers are running off of Raspberry Pi's, so the easiest way to transfer the file to the machine is probably to upload/download from Google Drive. A full manual about Duet Web Control can be found [here](https://docs.duet3d.com/User_manual/Reference/Duet_Web_Control_Manual).
 
 With a tuned Jubilee, all you need to do is to upload the GCode file. Simply click `UPLOAD & START` on the top right corner in DWC. 
 
