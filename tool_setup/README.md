@@ -24,7 +24,7 @@ The places where these should be plugged into the Duet board are defined in the 
 command sets the drive mapping, board 0 refers to the main board, board 1 refers to the expansion board, and the drive number is the index
 on this board that you should plug into. (The main board is the board that you are directly plugged into via an ethernet cable, or the one that is connected to the Raspberry Pi via a ribbon cable). _Uncomment this line (i.e. remove the semicolon at the beginning of it) and plug the 'motor' cable into the appropriate slot!_
 
-**Endstops:** You'll find the endstop information a bit further down in the "Endstops and Probes" section. Look for `M574` commands, where the `P` field will tell you the board number and port number to plug into. Look for some helpfue comments in the config file to identify where you should plug in the internal and external limit switches.
+**Endstops:** You'll find the endstop information a bit further down in the "Endstops and Probes" section. Look for `M574` commands, where the `P` field will tell you the board number and port number to plug into. Look for some helpful comments in the config file to identify where you should plug in the internal and external limit switches.
 
 There's more info about the other configuration options in the [docs](https://docs.duet3d.com/User_manual/Reference/Gcodes#m574-set-endstop-configuration).
 
